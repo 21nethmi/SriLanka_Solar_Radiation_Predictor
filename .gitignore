@@ -1,0 +1,73 @@
+# ============================================================
+# Python & Bytecode
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================
+# Streamlit & Local Configurations
+# ============================================================
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# ============================================================
+# Environments & Sensitive Keys
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Operating System Files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# IDEs & Code Editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================
+# Distribution & Packaging
+# ============================================================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ============================================================
+# Large Model Files / Binaries (>100MB exceeds standard GitHub limit)
+# Note: hybrid_model.pkl, random_forest.pkl, and stacking_model.pkl
+# are each ~1.4GB. Standard GitHub rejects files >100MB.
+# Uncomment the line below if you are not using Git LFS:
+# models/*.pkl
